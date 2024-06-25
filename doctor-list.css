@@ -1,0 +1,149 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+    height: 150px;
+}
+body{
+    background-color: #F6EBFF;
+    margin: 0 !important;
+    direction: rtl;
+}
+.enter{
+    width: 11%;
+    display: flex;
+    justify-content: center;
+
+}
+.enter button{
+    height: 50px;
+    width: 85px;
+    font-size: 18px;
+    font-weight: 700;
+    border: 1px solid #03319b;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: #03319b;
+}
+.options{
+    width: 11%;
+    border-left: 1px solid #FF9342;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  
+    font-size: 20px;
+    font-weight: 700;
+}
+.last{
+    border:  none !important;
+}
+.logo{
+    width: 12%;
+}
+.body-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+}
+.intro h1{
+    color: #8E7CFF;
+}
+.body{
+    margin: 4rem 12rem 2rem 12rem;
+}
+.slider{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+.doctor-card{
+    display: flex;
+    width: 35%;
+    min-height: 350px;
+    border: 1px solid #8E7CFF;
+    background-color: #8d7cff6a;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0.5rem 1rem;
+    padding: 1rem 1.5rem;
+}
+.top-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+
+}
+.right-top-info{
+    width: 50%;
+    align-items: center;
+
+}
+.right-top-info img{
+    width: 200px;
+    height: 200px;
+}
+.top-left-info{
+    width: 50%;
+}
+.right-top-info,.top-left-info{
+    display: flex;
+    flex-direction: column;
+}
+.pairs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.doctor-card button{
+    width: 150px;
+    height: 30px;
+    border-radius: 12px;
+    background-color: #4361FF;
+    border: none !important;
+    color: #fff;
+    width: 35%;
+
+}
+.info{
+    
+    margin:0 0 5px 0 !important;
+}
+.bottom-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.last-options{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+.address{
+    width: 60%;
+}
+.right-bottom-info{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
